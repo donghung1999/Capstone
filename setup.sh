@@ -1,0 +1,7 @@
+export AUTH0_DOMAIN="donghung-authen.us.auth0.com"
+export ALGORITHMS="RS256"
+export API_AUDIENCE="capstone"
+export CASTING_ASSISTANT_ACCESS_TOKEN=""
+export CASTING_DIRECTOR_ACCESS_TOKEN=""
+export EXECUTIVE_PRODUCER_ACCESS_TOKEN=""
+export DATABASE_LINK_URL="postgresql://postgres:admin@localhost:5432/postgres"
