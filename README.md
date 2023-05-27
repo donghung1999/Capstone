@@ -55,6 +55,8 @@ pip install -r requirements.txt
 To create database, make sure you have right config for `DATABASE_LINK_URL` in setup.sh file and run commant:
 
 ```bash
+flask db init
+flask db migrate
 flask db migrate
 ```
 
@@ -80,7 +82,8 @@ python test_app.py
 
 ### Deploy prject
 
-Project url: [Link]()
+Project url: [Link](https://donghung-capstone.onrender.com)
+Token for each role store in setup.sh file
 
 ### Project endpoint
 

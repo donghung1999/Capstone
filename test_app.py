@@ -30,7 +30,6 @@ class CapstoneTestCase(unittest.TestCase):
             '/movies',
             headers={"Authorization": "Bearer {}".format(self.casting_assistant_access_token)}
         )
-        print(json.loads(responseFromApi.data))
         self.assertEqual(json.loads(responseFromApi.data)['success'], True)
     
     def testGetMoviesFromDataBaseWithError(self):
